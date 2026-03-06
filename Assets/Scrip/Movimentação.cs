@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class NewMonoBehaviourScript : MonoBehaviour
-    
+
 {
     public int Pontos;
     public int Vida;
@@ -19,7 +19,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -53,14 +53,27 @@ public class NewMonoBehaviourScript : MonoBehaviour
         TextoVida.text = "Vida:" + Vida;
         if (Vida <= 0)
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("CenaDeDerrota");
         }
 
     }
     public void AdicionaPontos(int PontosParametro)
     {
         Pontos = Pontos + PontosParametro;
-        TextoPontos.text = "Pontos: " + Pontos; 
+        TextoPontos.text = "Pontos: " + Pontos;
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Cone"))
+        {
+            Bateu(collision.gameObject.GetComponent<Cones>().dano);
+            Destroy(collision.gameObject);
+        }
+        else if (collision.gameObject.CompareTag("Pontos"))
+        {
+            AdicionaPontos(10);
+            Destroy(collision.gameObject);
+        }
 
+    }
 }
