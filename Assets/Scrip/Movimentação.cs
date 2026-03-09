@@ -62,6 +62,11 @@ public class NewMonoBehaviourScript : MonoBehaviour
         Pontos = Pontos + PontosParametro;
         TextoPontos.text = "Pontos: " + Pontos;
     }
+    public void VelocidadeBuff(int Velocidade)
+    {
+        Vel = Vel + Velocidade;
+        velandar = velandar + Velocidade;
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Cone"))
@@ -72,6 +77,10 @@ public class NewMonoBehaviourScript : MonoBehaviour
         else if (collision.gameObject.CompareTag("Pontos"))
         {
             AdicionaPontos(10);
+            Destroy(collision.gameObject);
+        }else if (collision.gameObject.CompareTag("Buff"))
+        {
+            VelocidadeBuff(1);
             Destroy(collision.gameObject);
         }
 
