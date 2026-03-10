@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4c7818aa334c6c8429731e01c8ec324b
+guid: f26c001eea529794f9b6acc701eafe9f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6993835558561916797
-    second: "poptartcatrainbowbig_1_gif (530\xD7210)_0"
+      213: 8190142622492981794
+    second: 00214d7581589c6a4f5a12297d48d3c5-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "poptartcatrainbowbig_1_gif (530\xD7210)_0"
+      name: 00214d7581589c6a4f5a12297d48d3c5-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 9
-        width: 512
-        height: 201
+        x: 0
+        y: 26
+        width: 332
+        height: 498
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 388db6a4d97e0fe90800000000000000
-      internalID: -6993835558561916797
+      spriteID: 22afa79625b39a170800000000000000
+      internalID: 8190142622492981794
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "poptartcatrainbowbig_1_gif (530\xD7210)_0": -6993835558561916797
+      00214d7581589c6a4f5a12297d48d3c5-removebg-preview_0: 8190142622492981794
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

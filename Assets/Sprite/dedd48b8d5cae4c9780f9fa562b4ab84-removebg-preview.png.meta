@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 09b45fd7215c82349840231245281a4a
+guid: aa9e5894004d32943a57f153b25f7895
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2078339922389720891
-    second: Orange_Traffic_Cone_with_White_Stripe_Black_Outline_and_Base-removebg-preview_0
+      213: -8126673434023908273
+    second: dedd48b8d5cae4c9780f9fa562b4ab84-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Orange_Traffic_Cone_with_White_Stripe_Black_Outline_and_Base-removebg-preview_0
+      name: dedd48b8d5cae4c9780f9fa562b4ab84-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 106
-        y: 82
-        width: 287
-        height: 337
+        x: 0
+        y: 0
+        width: 346
+        height: 506
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b3f5d8cd52fb7dc10800000000000000
-      internalID: 2078339922389720891
+      spriteID: f4ca6679191483f80800000000000000
+      internalID: -8126673434023908273
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Orange_Traffic_Cone_with_White_Stripe_Black_Outline_and_Base-removebg-preview_0: 2078339922389720891
+      dedd48b8d5cae4c9780f9fa562b4ab84-removebg-preview_0: -8126673434023908273
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
